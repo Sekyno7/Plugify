@@ -1,6 +1,6 @@
 <ActionBar title="My App"> </ActionBar>
 
-<GridLayout>
+<GridLayout><app-home-page-component></app-home-page-component>
   <ListView [items]="items">
     <ng-template let-item="item">
       <StackLayout [nsRouterLink]="['/item', item.id]">

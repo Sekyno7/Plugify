@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core'
 
 import { Item } from './item'
 import { ItemService } from './item.service'
+import { HomePageComponent } from './../home-page/home-page.component'
 
 @Component({
   selector: 'ns-items',

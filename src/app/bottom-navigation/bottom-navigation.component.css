@@ -1,0 +1,11 @@
+/* Štýl pre samotné položky vo vnútri SegmentedBar */
+.segmented-bar-item {
+  color: #fff; /* Farba textu */
+  background-color: #3498db; /* Farba pozadia */
+}
+
+/* Štýl pre aktívne položky */
+.segmented-bar-item.segmented-bar-item-selected {
+  color: #3498db; /* Farba textu */
+  background-color: #fff; /* Farba pozadia */
+}
