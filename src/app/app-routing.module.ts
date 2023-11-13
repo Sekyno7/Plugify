@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core'
 import { Routes } from '@angular/router'
 import { NativeScriptRouterModule } from '@nativescript/angular'
-
 import { ItemsComponent } from './item/items.component'
 import { ItemDetailComponent } from './item/item-detail.component'
 import { HomePageComponent } from './home-page/home-page.component'
+import { LoginScreenComponent } from './login-screen/login-screen.component'
+import { SignUpScreenComponent } from './sign-up-screen/sign-up-screen.component'
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomePageComponent },
-  { path: 'item/:id', component: ItemDetailComponent },
+  { path: 'login', component: LoginScreenComponent },
+  { path: 'signUp', component: SignUpScreenComponent},
 
 
 ]

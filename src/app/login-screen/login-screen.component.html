@@ -1,0 +1,15 @@
+<StackLayout class="flex p-4 h-screen items-center bg-blue-100">
+    <StackLayout class=" p-6">
+        <Image src="/Users/tomassekerak/Desktop/Skola/Plugifyv2/Plugifyv2/assets/logo_v22.png" height="150" />
+    <Label class="text-2xl font-bold mb-8 text-center">Log In</Label>
+        <TextField style="box-shadow: 1px 1px 2px #000; border-radius: 20px; padding: 30px; border-color: #666; margin-bottom: 32px;" hint="E-mail" />
+        <TextField style="box-shadow: 1px 1px 2px #000; border-radius: 20px; padding: 30px; border-color: #666; margin-bottom: 32px;" hint="Password" secure="true" />
+        <Label class="text-sm text-blue-500 mb-4">Forgot password?</Label>
+        <Button class="bg-blue-500 text-white py-3 px-6 rounded-lg my-4" text="Sign in"></Button>
+        <FlexboxLayout class="flex justify-center">
+            <Label class="text-sm text-black mb-4">Don't have an account? </Label>
+            <Label class="text-sm text-blue-500 mb-4 font-bold" text="Sign up" (tap)="goToRegister()"></Label>
+        </FlexboxLayout>
+    </StackLayout>
+</StackLayout>
+

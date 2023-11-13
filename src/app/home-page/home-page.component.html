@@ -1,9 +1,19 @@
 <ActionBar title="Plugify">
     <NavigationButton text="Go back" android.systemIcon="ic_menu_back" />
 </ActionBar>
-<GridLayout backgroundColor="" rows="*, auto" columns="*">
-    <Image src="/Users/tomassekerak/Desktop/Skola/Plugifyv2/Plugifyv2/assets/logo_v2.png" height="200" row="0" col="0" />
-    <Label text="Welcome to Plugify!" fontSize="26" textAlignment="center" row="1" col="0" marginBottom="69"></Label>
-</GridLayout>
+<StackLayout class="flex h-screen items-center bg-blue-100">
+    <StackLayout class="text-center p-6 rounded-lg bg-blue-100">
+        <Image src="/Users/tomassekerak/Desktop/Skola/Plugifyv2/Plugifyv2/assets/logo_v22.png" height="250" />
+        <Label text="Welcome to Plugify!" class="text-4xl font-bold text-blue-600 my-4"></Label>
+        <Label text="Reserve a charging spot for your electric vehicle with ease. Join us in the future of sustainable transportation."
+               class="font-[500] text-lg text-blue-950 my-12" textWrap="true" lineHeight="1.5"></Label>
+        <Button class="bg-blue-500 text-white py-3 px-6 rounded-lg my-4" text="Login" (tap)="login()"></Button>
+        <Button class="bg-green-500 text-white py-3 px-6 rounded-lg my-4" text="Sign Up" (tap)="signUp()"></Button>
+    </StackLayout>
+</StackLayout>
+
+
+
+
 
 

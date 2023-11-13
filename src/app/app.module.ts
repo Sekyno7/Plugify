@@ -7,12 +7,14 @@ import { ItemsComponent } from './item/items.component'
 import { ItemDetailComponent } from './item/item-detail.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { MyComponentComponent } from './my-component/my-component.component';
-import { BottomNavigationComponent } from './bottom-navigation/bottom-navigation.component'
+import { BottomNavigationComponent } from './bottom-navigation/bottom-navigation.component';
+import { LoginScreenComponent } from './login-screen/login-screen.component';
+import { SignUpScreenComponent } from './sign-up-screen/sign-up-screen.component'
 
 @NgModule({
   bootstrap: [AppComponent],
   imports: [NativeScriptModule, AppRoutingModule],
-  declarations: [AppComponent, ItemsComponent, ItemDetailComponent, HomePageComponent, MyComponentComponent, BottomNavigationComponent],
+  declarations: [AppComponent, ItemsComponent, ItemDetailComponent, HomePageComponent, MyComponentComponent, BottomNavigationComponent, LoginScreenComponent, SignUpScreenComponent],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],
 })

@@ -14,14 +14,16 @@
     "@angular/router": "~16.2.0",
     "@nativescript/angular": "^16.0.0",
     "@nativescript/core": "~8.6.0",
+    "@nativescript/tailwind": "^2.0.1",
     "@nativescript/theme": "~3.0.2",
     "rxjs": "~7.8.0",
+    "tailwindcss": "^3.3.5",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~16.2.0",
     "@angular/compiler-cli": "~16.2.0",
-    "@nativescript/android": "8.6.2",
+    "@nativescript/android": "8.3.1",
     "@nativescript/ios": "8.6.1",
     "@nativescript/schematics": "^11.2.0",
     "@nativescript/types": "~8.6.0",
