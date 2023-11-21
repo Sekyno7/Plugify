@@ -43,5 +43,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	  <key>TNSGoogleMapsAPIKey</key>
+      <string>AIzaSyDQWLXTrhBYM6f5hMQ6pCyolPMPR69DX54</string>
 </dict>
 </plist>
+

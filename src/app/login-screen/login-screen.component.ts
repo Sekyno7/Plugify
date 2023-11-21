@@ -11,5 +11,6 @@ constructor(private router: Router) { }
   goToRegister() {
   this.router.navigate(['/signUp']);
 }
-
+goToMainPage() {
+  this.router.navigate(['/mainPage']);
 }
